@@ -10,7 +10,6 @@ body {
 	font-size: 16px;
 }
 body {
-	text-align: center;
 	display: block;
     margin: 0px;
     background: rgb(89,88,89);
@@ -36,7 +35,6 @@ ul {
 
 li {
 	display: inline;
-	margin:0 0 10px 0;
 }
 
 
@@ -48,33 +46,15 @@ li {
 }
 
 .container {
-	margin: auto;
+	width: 700px;
+	margin: 40px auto;
 }
 
 .card {
 	background-color: #40484a;
-	padding: 20px;
-	margin: auto;
-	border-radius: 5%;
-	max-width: 500px;
-}
-
-.card-hobby {
-	background-color: #40484a;
-	margin: 50px auto;
-	border-radius: 5%;
-	max-width: 300px;
-	padding: 5px 0px;
-}
-
-.card-countries{
-	background-color: #40484a;
-	padding: 30px;
-	margin: auto;
+	padding: 40px;
+	margin: 20px 0px;
 	border-radius: 2%;
-	max-width: 630px;
-	max-height: 180px;
-	border-radius: 5%;
 }
 
 .text-center {
